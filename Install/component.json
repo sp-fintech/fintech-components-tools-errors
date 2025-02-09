@@ -1,0 +1,37 @@
+{
+	"name" : "Errors",
+	"route" : "errors",
+	"description" : "<p>Component to manage Errors on Fintech App</p>",
+	"module_type" : "components",
+	"app_type" : "fintech",
+	"category" : "tools",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-fintech/fintech-components-tools-errors",
+	"class" : "Apps\\Fintech\\Components\\Errors\\ErrorsComponent",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0",
+			"repo" : "https://.../"
+		},
+		"components" : [],
+		"packages" : [],
+		"middlewares" : [],
+		"views" : [],
+		"external" : [],
+		"apptype" : 
+		{
+			"name" : "Fintech",
+			"version" : "0.3.0",
+			"repo" : "https://github.com/sp-fintech/fintech"
+		}
+	},
+	"menu" : "false",
+	"settings" : 
+	{
+		"mandatory" : true
+	},
+	"widgets" : []
+}
