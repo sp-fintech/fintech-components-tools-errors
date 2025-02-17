@@ -13,19 +13,32 @@
 		"core" : 
 		{
 			"name" : "Core",
-			"version" : "0.0.0",
-			"repo" : "https://.../"
+			"version" : "0.0.0-rc.8",
+			"repo" : "https://github.com/sp-framework/core"
 		},
-		"components" : [],
-		"packages" : [],
-		"middlewares" : [],
-		"views" : [],
-		"external" : [],
 		"apptype" : 
 		{
 			"name" : "Fintech",
 			"version" : "0.3.0",
 			"repo" : "https://github.com/sp-fintech/fintech"
+		},
+		"packages" : [],
+		"middlewares" : [],
+		"views" : [],
+		"externals" : 
+		{
+			"composer" : 
+			{
+				"require" : []
+			},
+			"config" : 
+			{
+				"allow-plugins" : []
+			},
+			"extra" : 
+			{
+				"patches" : []
+			}
 		}
 	},
 	"menu" : "false",
